@@ -30,6 +30,7 @@ func die():
 		Explosions.add_child(explosion)
 	queue_free()
 
+
 func _on_Timer_timeout():
 	if Bullets == null:
 		Bullets = get_node("/root/Game/Bullets")
